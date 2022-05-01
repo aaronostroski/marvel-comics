@@ -1,7 +1,7 @@
-import './App.css';
+import Nav from "./components/Nav";
 
 function App() {
-  return <h1>oi</h1>;
+    return <Nav></Nav>;
 }
 
 export default App;
