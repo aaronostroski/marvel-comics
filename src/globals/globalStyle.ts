@@ -3,6 +3,16 @@ import { createGlobalStyle } from "styled-components";
 import { GlobalStyleTypes } from "../types/GlobalStyle";
 
 export const GlobalStyle = createGlobalStyle<GlobalStyleTypes>`
+    @font-face {
+        font-family: "Roboto";
+        src: local("Roboto"), url("../assets/fonts/Roboto 400 Normal.woff2") format("truetype");
+    }
+
+    @font-face {
+        font-family: "Marvel";
+        src: local("Marvel"), url("../assets/fonts/MarvelRegular-Dj83.ttf") format("truetype");
+    }
+
     html,
     body {
         padding: 0;
@@ -10,7 +20,9 @@ export const GlobalStyle = createGlobalStyle<GlobalStyleTypes>`
         height: 100vh;
         width: 100vw;
         overflow: hidden;
-        border-box: box-sizing;
+        box-sizing: border-box;
+        font-family: ${(props: GlobalStyleTypes) =>
+            props.fontFamilyApp}, sans-serif;
     }
     a, a:hover, a:focus, a:active {
         text-decoration: none;
@@ -21,7 +33,8 @@ export const GlobalStyle = createGlobalStyle<GlobalStyleTypes>`
         padding: 0; 
     }
     nav {
-        background-color: ${(props: GlobalStyleTypes) => props.backgroundColor};
+        background-color: ${(props: GlobalStyleTypes) =>
+            props.backgroundColorApp};
         height: 114px;
     }
     h2, h1, p {
