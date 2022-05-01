@@ -3,6 +3,10 @@
     "trailingComma": "none",
     "singleQuote": false,
     "printWidth": 80,
+    "tabWidth": 4,
+    "importOrder": ["^@core/(.*)$", "^@server/(.*)$", "^@ui/(.*)$", "^[./]"],
+    "importOrderSeparation": true,
+    "importOrderSortSpecifiers": true,
     "prettier/prettier": [
     "error",
     {
