@@ -2,5 +2,12 @@
     "semi": true,
     "trailingComma": "none",
     "singleQuote": true,
-    "printWidth": 80
+    "printWidth": 80,
+    "prettier/prettier": [
+    "error",
+    {
+        "endOfLine": "auto"
+    }
+    ]
+
 }
