@@ -9,7 +9,8 @@ const theme: ITheme = {
     containerSm: "720px",
     containerXs: "460px",
     colorPrimarytApp: "#FF0000",
-    colorSecondaryApp: "#FFF"
+    colorSecondaryApp: "#FFF",
+    colorThirdApp: "#000"
 };
 
 export default theme;

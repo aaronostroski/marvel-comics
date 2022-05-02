@@ -8,4 +8,5 @@ export interface ITheme {
     containerXs: string;
     colorPrimarytApp: string;
     colorSecondaryApp: string;
+    colorThirdApp: string;
 }
