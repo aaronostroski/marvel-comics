@@ -42,6 +42,7 @@ export const Brand = styled.div`
     cursor: pointer;
     margin-right: 20px;
     transition: transform 0.3s ease;
+    text-align: center;
 
     &:hover {
         transform: scale(1.1);
