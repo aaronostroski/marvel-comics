@@ -40,5 +40,11 @@ export const GlobalStyle = createGlobalStyle<GlobalStyleTypes>`
     h2, h1, p {
         margin: 0;
     }
+    input {
+        border: none;
+    }
+    button {
+        border: none;
+    }
   }
 `;
