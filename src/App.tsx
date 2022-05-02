@@ -1,7 +1,20 @@
-import Nav from "./components/Nav";
+import {
+    Navigate,
+    Route,
+    BrowserRouter as Router,
+    Routes
+} from "react-router-dom";
+
+import HomePage from "./pages/Home";
 
 function App() {
-    return <Nav></Nav>;
+    return (
+        <Router>
+            <Routes>
+                <Route path="/" element={<HomePage />} />
+            </Routes>
+        </Router>
+    );
 }
 
 export default App;
