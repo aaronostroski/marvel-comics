@@ -45,7 +45,7 @@ export const Info = styled.div`
     padding: 30px;
     display: flex;
     flex-direction: column;
-    width: 320px;
+    max-width: 320px;
 `;
 
 export const SeeDetails = styled.button`
@@ -58,7 +58,7 @@ export const SeeDetails = styled.button`
     transition: all 0.15s ease-out;
     cursor: pointer;
     height: 46px;
-    width: 200px;
+    padding: 10px 20px;
     border-radius: 6px;
     font-weight: 500;
     font-size: 13px;
