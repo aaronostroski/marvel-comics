@@ -8,9 +8,11 @@ const theme: ITheme = {
     containerMd: "1024px",
     containerSm: "720px",
     containerXs: "460px",
-    colorPrimarytApp: "#FF0000",
+    colorPrimaryApp: "#FF0000",
     colorSecondaryApp: "#FFF",
-    colorThirdApp: "#000"
+    colorThirdApp: "#000",
+    fontFamilyCharacterName: "Bebas Neue",
+    fontFamilyDescription: "EB Garamond, serif"
 };
 
 export default theme;

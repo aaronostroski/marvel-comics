@@ -5,6 +5,7 @@ import { ThemeProvider } from "styled-components";
 import App from "./App";
 import { GlobalStyle } from "./globals/globalStyle";
 import theme from "./globals/theme";
+import "./index.css";
 import reportWebVitals from "./reportWebVitals";
 
 const root = ReactDOM.createRoot(

@@ -19,7 +19,7 @@ export const GlobalStyle = createGlobalStyle<GlobalStyleTypes>`
         margin: 0;
         height: 100vh;
         width: 100vw;
-        overflow: hidden;
+        overflow-x: hidden;
         box-sizing: border-box;
         font-family: ${(props: GlobalStyleTypes) =>
             props.fontFamilyApp}, sans-serif;
@@ -37,7 +37,7 @@ export const GlobalStyle = createGlobalStyle<GlobalStyleTypes>`
             props.backgroundColorApp};
         height: 114px;
     }
-    h2, h1, p {
+    h2, h1, h3, p {
         margin: 0;
     }
     input {

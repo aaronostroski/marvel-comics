@@ -9,7 +9,15 @@ import { Container } from "../../shared/Container";
 import ContentTitle from "../../shared/ContentTitle";
 import { Section } from "../../shared/Section";
 import ContentTitleType from "../../types/ContentTitle";
-import { Card, Cards, ImageCharacter } from "./styles";
+import {
+    Card,
+    Cards,
+    CharacterName,
+    Description,
+    ImageCharacter,
+    Info,
+    SeeDetails
+} from "./styles";
 
 export default function CharactersCard(): ReactElement {
     const propsContentTitle: ContentTitleType = {
@@ -63,30 +71,106 @@ export default function CharactersCard(): ReactElement {
             <Container>
                 <ContentTitle {...propsContentTitle} />
                 <Cards>
-                    {/* <Slider {...settingsCarousel}> */}
                     <Card>
-                        <figure className="cardThumb">
-                            <ImageCharacter
-                                className="cardImage"
-                                src="http://x.annihil.us/u/prod/marvel/i/mg/3/40/4bb4680432f73/portrait_uncanny.jpg"
-                            />
-                            <figcaption className="cardCaption">
-                                {/* <h2 className="cardTitle">
-                                        NASA Has Found Hundreds Of Potential New
-                                        Planets
-                                    </h2>
-                                    <p className="cardSnippet">
-                                        NASA released a list of 219 new “planet
-                                        candidates” discovered by the Kepler
-                                        space telescope, 10 of which are similar
-                                        to Earth’s size and may be habitable by
-                                        other life forms.
-                                    </p>
-                                    <a className="cardButton">Read more</a> */}
-                            </figcaption>
-                        </figure>
+                        <Info>
+                            <CharacterName>Homem aranha</CharacterName>
+                            <Description>
+                                Lorem ipsum dolor sit amet, consectetur
+                                adipiscing elit, sed do eiusmod tempo r
+                                incididunt ut labore et dolore magna aliqua. Ut
+                                enim ad minim veniam, quis nostrud exercitation
+                                ullamco laboris nisi ut aliquip ex ea commodo
+                                consequat. Duis aute irure dolor in
+                                reprehenderit in voluptate velit esse cillum
+                                dolore eu fugiat nulla pariatur.
+                            </Description>
+                            <SeeDetails>Ver detalhes</SeeDetails>
+                        </Info>
+                        <ImageCharacter
+                            className="cardImage"
+                            src="http://x.annihil.us/u/prod/marvel/i/mg/3/40/4bb4680432f73/portrait_uncanny.jpg"
+                        />
                     </Card>
-                    {/* </Slider> */}
+                    <Card>
+                        <Info>
+                            <CharacterName>Homem aranha</CharacterName>
+                            <Description>
+                                Lorem ipsum dolor sit amet, consectetur
+                                adipiscing elit, sed do eiusmod tempo r
+                                incididunt ut labore et dolore magna aliqua. Ut
+                                enim ad minim veniam, quis nostrud exercitation
+                                ullamco laboris nisi ut aliquip ex ea commodo
+                                consequat. Duis aute irure dolor in
+                                reprehenderit in voluptate velit esse cillum
+                                dolore eu fugiat nulla pariatur.
+                            </Description>
+                            <SeeDetails>Ver detalhes</SeeDetails>
+                        </Info>
+                        <ImageCharacter
+                            className="cardImage"
+                            src="http://x.annihil.us/u/prod/marvel/i/mg/3/40/4bb4680432f73/portrait_uncanny.jpg"
+                        />
+                    </Card>
+                    <Card>
+                        <Info>
+                            <CharacterName>Homem aranha</CharacterName>
+                            <Description>
+                                Lorem ipsum dolor sit amet, consectetur
+                                adipiscing elit, sed do eiusmod tempo r
+                                incididunt ut labore et dolore magna aliqua. Ut
+                                enim ad minim veniam, quis nostrud exercitation
+                                ullamco laboris nisi ut aliquip ex ea commodo
+                                consequat. Duis aute irure dolor in
+                                reprehenderit in voluptate velit esse cillum
+                                dolore eu fugiat nulla pariatur.
+                            </Description>
+                            <SeeDetails>Ver detalhes</SeeDetails>
+                        </Info>
+                        <ImageCharacter
+                            className="cardImage"
+                            src="http://x.annihil.us/u/prod/marvel/i/mg/3/40/4bb4680432f73/portrait_uncanny.jpg"
+                        />
+                    </Card>
+                    <Card>
+                        <Info>
+                            <CharacterName>Homem aranha</CharacterName>
+                            <Description>
+                                Lorem ipsum dolor sit amet, consectetur
+                                adipiscing elit, sed do eiusmod tempo r
+                                incididunt ut labore et dolore magna aliqua. Ut
+                                enim ad minim veniam, quis nostrud exercitation
+                                ullamco laboris nisi ut aliquip ex ea commodo
+                                consequat. Duis aute irure dolor in
+                                reprehenderit in voluptate velit esse cillum
+                                dolore eu fugiat nulla pariatur.
+                            </Description>
+                            <SeeDetails>Ver detalhes</SeeDetails>
+                        </Info>
+                        <ImageCharacter
+                            className="cardImage"
+                            src="http://x.annihil.us/u/prod/marvel/i/mg/3/40/4bb4680432f73/portrait_uncanny.jpg"
+                        />
+                    </Card>
+                    <Card>
+                        <Info>
+                            <CharacterName>Homem aranha</CharacterName>
+                            <Description>
+                                Lorem ipsum dolor sit amet, consectetur
+                                adipiscing elit, sed do eiusmod tempo r
+                                incididunt ut labore et dolore magna aliqua. Ut
+                                enim ad minim veniam, quis nostrud exercitation
+                                ullamco laboris nisi ut aliquip ex ea commodo
+                                consequat. Duis aute irure dolor in
+                                reprehenderit in voluptate velit esse cillum
+                                dolore eu fugiat nulla pariatur.
+                            </Description>
+                            <SeeDetails>Ver detalhes</SeeDetails>
+                        </Info>
+                        <ImageCharacter
+                            className="cardImage"
+                            src="http://x.annihil.us/u/prod/marvel/i/mg/3/40/4bb4680432f73/portrait_uncanny.jpg"
+                        />
+                    </Card>
                 </Cards>
             </Container>
         </Section>

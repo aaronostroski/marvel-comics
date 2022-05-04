@@ -6,7 +6,9 @@ export interface ITheme {
     containerMd: string;
     containerSm: string;
     containerXs: string;
-    colorPrimarytApp: string;
+    colorPrimaryApp: string;
     colorSecondaryApp: string;
     colorThirdApp: string;
+    fontFamilyCharacterName: string;
+    fontFamilyDescription: string;
 }
