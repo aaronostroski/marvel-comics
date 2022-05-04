@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
-import leftIcon from "../assets/left-icon.svg";
-import rightIcon from "../assets/right-icon.svg";
+import nextArrowIcon from "../assets/next-arrow.svg";
+import prevArrowIcon from "../assets/prev-arrow.svg";
 
 const Button = styled.button`
     width: 51px;
@@ -20,7 +20,7 @@ const Button = styled.button`
 export function PrevArrow({ onClick }: { onClick: any }) {
     return (
         <Button onClick={onClick} className="prev-arrow">
-            <img src={leftIcon} alt="Left Arrow" />
+            <img src={prevArrowIcon} alt="Anterior" />
         </Button>
     );
 }
@@ -28,7 +28,7 @@ export function PrevArrow({ onClick }: { onClick: any }) {
 export function NextArrow({ onClick }: { onClick: any }) {
     return (
         <Button onClick={onClick} className="next-arrow">
-            <img src={rightIcon} alt="Rigth Arrow" />
+            <img src={nextArrowIcon} alt="Próximo" />
         </Button>
     );
 }

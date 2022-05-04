@@ -46,5 +46,9 @@ export const GlobalStyle = createGlobalStyle<GlobalStyleTypes>`
     button {
         border: none;
     }
+    
+    figure {
+        margin: 0;
+    }
   }
 `;
