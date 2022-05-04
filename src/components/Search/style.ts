@@ -47,7 +47,7 @@ export const ButtonSearch = styled.button`
     width: 96px;
     height: 46px;
     cursor: pointer;
-    background-color: ${(props: any) => props.theme.colorPrimarytApp};
+    background-color: ${(props: any) => props.theme.colorPrimaryApp};
     color: ${(props: any) => props.theme.colorSecondaryApp};
     text-transform: uppercase;
     font-size: 12.8px;

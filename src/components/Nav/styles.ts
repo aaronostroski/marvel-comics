@@ -14,7 +14,7 @@ export const NavbarRow = styled.div`
 export const Item = styled.a`
     font-weight: 600;
     font-size: 16px;
-    color: ${(props: any) => props.theme.colorPrimarytApp};
+    color: ${(props: any) => props.theme.colorPrimaryApp};
     cursor: pointer;
     margin-right: 20px;
 
@@ -30,11 +30,11 @@ export const Item = styled.a`
 
     &:hover:after {
         width: 100%;
-        background: ${(props: any) => props.theme.colorPrimarytApp};
+        background: ${(props: any) => props.theme.colorPrimaryApp};
     }
 
     &.active {
-        border: solid 1px ${(props: any) => props.theme.colorPrimarytApp};
+        border: solid 1px ${(props: any) => props.theme.colorPrimaryApp};
     }
 `;
 
