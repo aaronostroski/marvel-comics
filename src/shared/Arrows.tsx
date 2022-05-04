@@ -4,16 +4,18 @@ import nextArrowIcon from "../assets/next-arrow.svg";
 import prevArrowIcon from "../assets/prev-arrow.svg";
 
 const Button = styled.button`
+    background-color: #fff;
     width: 51px;
     height: 51px;
     z-index: 20;
-
+    position: absolute;
+    top: 40%;
     &.prev-arrow {
-        left: -10px;
+        left: -70px;
     }
 
     &.next-arrow {
-        right: -10px;
+        right: -70px;
     }
 `;
 
