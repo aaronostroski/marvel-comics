@@ -17,7 +17,7 @@ import {
 
 export default function CharactersCard(): ReactElement {
     const propsContentTitle: ContentTitleType = {
-        title: "Personagens",
+        title: "Navegue entre os milhares personagens disponíveis!",
         src: americaCaptainIcon,
         alt: "Personagens"
     };

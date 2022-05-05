@@ -8,19 +8,21 @@ import { NextArrow, PrevArrow } from "../../shared/Arrows";
 import { Container } from "../../shared/Container";
 import ContentTitle from "../../shared/ContentTitle";
 import { Section } from "../../shared/Section";
+import { IComicsCarousel } from "../../types/Carousel";
+import ContentTitleType from "../../types/ContentTitle";
 import { Card, Cards } from "./style";
 
 export default function ComicsCard(): ReactElement {
-    const propsContentTitle = {
+    const propsContentTitle: ContentTitleType = {
         alt: "Comics",
         src: mjonirIcon,
-        title: "Comics"
+        title: "Encontre e descuba entre os milhares de quadrinhos da Marvel publicados!"
     };
 
-    const settingsCarouselLinear = {
+    const settingsCarouselLinear: IComicsCarousel = {
         infinite: true,
         speed: 500,
-        slidesToScroll: 2,
+        slidesToScroll: 1,
         autoplay: true,
         centerMode: true,
         adaptiveHeight: false,
@@ -57,7 +59,7 @@ export default function ComicsCard(): ReactElement {
             }
         ]
     };
-    const settingsCarouselReverse = {
+    const settingsCarouselReverse: IComicsCarousel = {
         infinite: true,
         speed: 500,
         slidesToScroll: -2,
