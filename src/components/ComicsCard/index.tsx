@@ -65,7 +65,6 @@ export default function ComicsCard(): ReactElement {
         centerMode: true,
         adaptiveHeight: false,
         slidesToShow: 6,
-        className: "carousel",
         autoplaySpeed: 2000,
         nextArrow: <NextArrow onClick />,
         prevArrow: <PrevArrow onClick />,
@@ -74,17 +73,16 @@ export default function ComicsCard(): ReactElement {
                 breakpoint: 1024,
                 settings: {
                     slidesToShow: 3,
-                    slidesToScroll: 3,
                     infinite: true
                 }
             },
             {
                 breakpoint: 930,
                 settings: {
-                    slidesToShow: 2,
-                    slidesToScroll: 2,
-                    initialSlide: 2,
-                    arrows: false
+                    slidesToShow: 2
+                    // slidesToScroll: 2,
+                    // initialSlide: 2,
+                    // arrows: false
                 }
             },
             {

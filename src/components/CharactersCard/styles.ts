@@ -26,6 +26,11 @@ export const Card = styled.div`
     display: flex;
     justify-content: space-between;
     animation: ${moveCard} 0.6s ease-out;
+    transition: all 0.5s ease;
+
+    &:hover {
+        transform: scale(1.05);
+    }
 `;
 export const CharacterName = styled.h3`
     font-size: 30px;

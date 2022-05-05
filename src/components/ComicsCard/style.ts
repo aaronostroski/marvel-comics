@@ -8,4 +8,9 @@ export const Cards = styled.div`
 export const Card = styled.img`
     max-width: 150px;
     margin: 15px;
+    transition: transform 0.5s ease;
+
+    &:hover {
+        transform: scale(1.1);
+    }
 `;
