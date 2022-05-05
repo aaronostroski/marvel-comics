@@ -2,6 +2,8 @@ import styled from "styled-components";
 
 export const Navbar = styled.nav`
     height: 96px;
+    padding: 15px 0;
+    box-shadow: 0 2px 0 0 rgb(0 0 0 / 3%);
 `;
 
 export const NavbarRow = styled.div`
