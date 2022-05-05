@@ -17,6 +17,7 @@ const BoxContent = styled.div`
     margin-bottom: 35px;
     display: flex;
     align-items: center;
+    justify-content: center;
 `;
 
 const Icon = styled.img`
@@ -25,7 +26,6 @@ const Icon = styled.img`
 `;
 
 const Title = styled.h2`
-    font-weight: 400;
     color: ${(props: any) => props.theme.colorThirdApp};
     font-size: 28px;
     display: inline-block;
