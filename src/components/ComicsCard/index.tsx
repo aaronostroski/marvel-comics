@@ -1,4 +1,4 @@
-import { ReactElement } from "react";
+import { ReactElement, useMemo, useState } from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick-theme.css";
 import "slick-carousel/slick/slick.css";
@@ -28,8 +28,8 @@ export default function ComicsCard(): ReactElement {
         adaptiveHeight: false,
         slidesToShow: 6,
         autoplaySpeed: 2000,
-        nextArrow: <NextArrow onClick />,
-        prevArrow: <PrevArrow onClick />,
+        nextArrow: <NextArrow onClick ableLateralArrows={true} />,
+        prevArrow: <PrevArrow onClick ableLateralArrows={true} />,
         responsive: [
             {
                 breakpoint: 1024,
@@ -68,8 +68,8 @@ export default function ComicsCard(): ReactElement {
         adaptiveHeight: false,
         slidesToShow: 6,
         autoplaySpeed: 2000,
-        nextArrow: <NextArrow onClick />,
-        prevArrow: <PrevArrow onClick />,
+        nextArrow: <NextArrow onClick ableLateralArrows={true} />,
+        prevArrow: <PrevArrow onClick ableLateralArrows={true} />,
         responsive: [
             {
                 breakpoint: 1024,

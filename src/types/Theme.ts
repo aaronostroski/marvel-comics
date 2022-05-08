@@ -10,5 +10,7 @@ export interface ITheme {
     colorSecondaryApp: string;
     colorThirdApp: string;
     fontFamilyCharacterName: string;
+    fontFamilyTitle: string;
     fontFamilyDescription: string;
+    fontFamilyAuthor: string;
 }

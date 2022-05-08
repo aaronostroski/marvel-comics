@@ -107,46 +107,6 @@ export default function CharactersCard(): ReactElement {
                             src="http://x.annihil.us/u/prod/marvel/i/mg/3/40/4bb4680432f73/portrait_uncanny.jpg"
                         />
                     </Card>
-                    <Card>
-                        <Info>
-                            <CharacterName>Homem aranha</CharacterName>
-                            <Description>
-                                Lorem ipsum dolor sit amet, consectetur
-                                adipiscing elit, sed do eiusmod tempo r
-                                incididunt ut labore et dolore magna aliqua. Ut
-                                enim ad minim veniam, quis nostrud exercitation
-                                ullamco laboris nisi ut aliquip ex ea commodo
-                                consequat. Duis aute irure dolor in
-                                reprehenderit in voluptate velit esse cillum
-                                dolore eu fugiat nulla pariatur.
-                            </Description>
-                            <SeeDetails>Ver detalhes</SeeDetails>
-                        </Info>
-                        <ImageCharacter
-                            className="cardImage"
-                            src="http://x.annihil.us/u/prod/marvel/i/mg/3/40/4bb4680432f73/portrait_uncanny.jpg"
-                        />
-                    </Card>
-                    <Card>
-                        <Info>
-                            <CharacterName>Homem aranha</CharacterName>
-                            <Description>
-                                Lorem ipsum dolor sit amet, consectetur
-                                adipiscing elit, sed do eiusmod tempo r
-                                incididunt ut labore et dolore magna aliqua. Ut
-                                enim ad minim veniam, quis nostrud exercitation
-                                ullamco laboris nisi ut aliquip ex ea commodo
-                                consequat. Duis aute irure dolor in
-                                reprehenderit in voluptate velit esse cillum
-                                dolore eu fugiat nulla pariatur.
-                            </Description>
-                            <SeeDetails>Ver detalhes</SeeDetails>
-                        </Info>
-                        <ImageCharacter
-                            className="cardImage"
-                            src="http://x.annihil.us/u/prod/marvel/i/mg/3/40/4bb4680432f73/portrait_uncanny.jpg"
-                        />
-                    </Card>
                 </Cards>
             </Container>
         </Section>

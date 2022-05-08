@@ -54,6 +54,7 @@ export const Info = styled.div`
 `;
 
 export const SeeDetails = styled.button`
+    grid-area: see-details;
     align-self: center;
     text-align: center;
     background-color: ${({ theme }) => theme.colorPrimaryApp};
@@ -62,8 +63,7 @@ export const SeeDetails = styled.button`
     font-size: 15px;
     transition: all 0.15s ease-out;
     cursor: pointer;
-    height: 46px;
-    padding: 10px 20px;
+    padding: 15px 20px;
     border-radius: 6px;
     font-weight: 500;
     font-size: 13px;
