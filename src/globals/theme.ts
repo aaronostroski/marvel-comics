@@ -12,7 +12,9 @@ const theme: ITheme = {
     colorSecondaryApp: "#FFF",
     colorThirdApp: "#000",
     fontFamilyCharacterName: "Bebas Neue",
-    fontFamilyDescription: "EB Garamond, serif"
+    fontFamilyTitle: "Bebas Neue, cursive",
+    fontFamilyDescription: "EB Garamond, serif",
+    fontFamilyAuthor: "Oleo Script Swash Caps, cursive"
 };
 
 export default theme;
